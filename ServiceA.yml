@@ -4,4 +4,23 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: '*'
+    configprops:
+      enabled: true
+    beans:
+      enabled: true
+    shutdown:
+      enabled: true
+
+    enabled-by-default: true
+    sensitive: false
+    enabled: true
+
+  endpoint:
+    configprops:
+      enabled: true
+    beans:
+      enabled: true
+    shutdown:
+      enabled: true
+
