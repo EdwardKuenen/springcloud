@@ -1,5 +1,4 @@
 greeting: Hello from ServiceA github 9:06
-
 management:
   endpoints:
     web:
@@ -11,7 +10,9 @@ management:
       enabled: true
     shutdown:
       enabled: true
-
+    health:
+      sensitive: false
+      
     enabled-by-default: true
     sensitive: false
     enabled: true
@@ -23,5 +24,5 @@ management:
       enabled: true
     shutdown:
       enabled: true
-    health:
-      sensitive: false
+
+
