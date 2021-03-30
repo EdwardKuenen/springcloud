@@ -24,5 +24,6 @@ management:
       enabled: true
     shutdown:
       enabled: true
-
+    health:
+      show-details: "ALWAYS"
 
